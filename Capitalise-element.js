@@ -7,11 +7,12 @@ var myArray=['cat','bat','rat'];
   
     var newArray= myArray.map(function(arr){
               
-           return  console.log( arr.toString().toUpperCase());
+           return  arr.toUpperCase();
     });
     
     
     
-   
+   console.log(newArray);
+
 
 
